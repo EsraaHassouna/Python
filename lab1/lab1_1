@@ -1,0 +1,9 @@
+# Python function takes a string as input and returns the string reversed
+ 
+#asign the string to variable input string
+inputString= input('enter the string you need to reverse : \n')
+
+def reverseString (inputString):
+    return inputString[ : :-1]
+
+print(reverseString(inputString))

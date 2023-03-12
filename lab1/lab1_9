@@ -1,0 +1,31 @@
+'''Python function takes a list of integers as input and
+returns a new list containing only the even numbers'''
+
+#empty list to take int in it
+lst=[]
+
+#no of int (range) in the list
+noOfInt=int(input("enter the range of list items: \n"))
+
+# iterating till the range
+for i in range(0, noOfInt):
+	item = int(input())
+	lst.append(item) # adding the element
+	
+#function to get the greater noin the list
+def larger(lst,n):
+    x=[]
+    # iteration to get larger int in the list
+    for i in range(0, n):
+            #we compair 0 with all the list items
+            # if int is greater then 0 
+            # put the number in x istead of 0
+            # else increase the iterator by 1 till the end of the list  
+            if(lst[i]%2==0):
+                x.append(lst[i])
+            else:
+                i=i+1
+    return x
+		    
+		    
+print(larger(lst,noOfInt))

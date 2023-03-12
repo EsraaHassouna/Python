@@ -1,0 +1,13 @@
+'''Python program prompts the user to enter their age
+and prints out a message saying whether they are old enough to
+vote (age 18 and above) or not'''
+
+age=int(input("enter your age please : \n"))
+
+if(age>0):
+    if(age>=18):
+        print("you can vote")
+    else:
+        print("sorry you are not old enough to vote")
+else:
+    print("please enter a positive number for the age")

@@ -1,0 +1,20 @@
+'''Python function takes a string as input and returns the
+number of vowels in the string'''
+
+strLst=input("enter the word : ")
+vowls=['a','o','i','e','u']
+
+
+def vowlsCounter(strLst,vowls):
+    count=0
+    for i in strLst:
+          for j in vowls:
+            if(i==j):
+                count+=1;
+            
+    return count
+
+print("the vowls found in the input is ",vowlsCounter(strLst,vowls))
+
+
+                 

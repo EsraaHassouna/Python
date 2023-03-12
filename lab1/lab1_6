@@ -1,0 +1,11 @@
+'''Python program prompts the user to enter a number
+and prints out a message saying whether the number is positive,
+negative, or zero'''
+
+no=int(input('please enter a number'))
+if(no==0):
+    print("the entered number is zero")
+elif(no>0):
+    print("the entered number is positive")
+else:
+    print("the entered number is nigative")

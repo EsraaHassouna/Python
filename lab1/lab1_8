@@ -1,0 +1,6 @@
+'''Python program that prompts the user to enter a sentence
+and prints out the sentence in all uppercase letters'''
+
+  
+val = input("Enter your value: ")
+print(val.upper())

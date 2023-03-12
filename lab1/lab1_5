@@ -1,0 +1,13 @@
+strings=['dog','cat','rtedh','kljf']
+
+def get_longest_str(str_list):
+    longest_word=''
+    for i in str_list:
+        if len(i) > len(longest_word):
+            longest_word=i
+
+    return longest_word
+
+x=get_longest_str(strings)
+print(x)
+

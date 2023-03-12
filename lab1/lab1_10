@@ -1,0 +1,6 @@
+'''Python program reads in a list of strings and prints
+out the strings in alphabetical order'''
+
+lst=['esraa','reem','rahma','ragia','rania','salma','mai','shrouk']
+
+print(sorted(lst))

@@ -1,0 +1,28 @@
+""" Python program prompts the user to enter two numbers 
+and prints out their sum, difference, product, and quotient
+""" 
+
+x=int(input('enter the first no : \n'))
+y=int(input('enter the second no : \n'))
+
+def sum(x,y):
+    return x+y 
+
+
+def dif(x,y):
+    if (x<y):
+        diff=y-x
+    else:
+        diff=x-y
+    return diff
+
+def qoutient(x,y):
+    return x%y 
+
+def product(x,y):
+    return x*y
+ 
+print('the sum is ',sum(x,y))
+print('the diff is',dif(x,y))
+print('the qoutient is ',qoutient(x,y))
+print('the product is',int(product(x,y)))
