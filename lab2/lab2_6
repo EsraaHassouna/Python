@@ -1,0 +1,11 @@
+'''Python program that reads a file named example.txt and
+prints the contents of the file in reverse order'''
+
+#import my_module as mp
+from my_module import reverse_function
+reverse_order=''
+
+with open("example.txt","r") as read_file:
+    rn=read_file.read()
+    print(reverse_function(rn))
+

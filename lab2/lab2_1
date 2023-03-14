@@ -1,0 +1,9 @@
+'''Python program uses the math module to calculate
+the area of a circle with a radius of 5'''
+
+import math as mm
+
+radius=5
+
+area_of_circle=mm.pi*radius*radius
+print(area_of_circle)

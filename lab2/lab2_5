@@ -1,0 +1,12 @@
+'''Python program that reads a file named example.txt and
+counts the number of lines in the file'''
+
+count=0
+textfile=open("example.txt","r")
+
+for line in textfile:
+    if line !=0 :
+        count+=1
+
+textfile.close()
+print (count)

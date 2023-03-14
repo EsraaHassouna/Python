@@ -1,0 +1,16 @@
+'''Python program that reads a file named example.txt and
+removes all newline characters from the file'''
+'''
+with open("example.txt","r") as file:
+    nl=file.read()
+    for s in nl: 
+        qa=nl.rstrip('\n')
+    print(qa)'''
+
+
+def remove_newlines(fname):
+    flist = open(fname).readlines()
+    for s in flist:
+         return s.rstrip('\n')
+    
+print(remove_newlines("example.txt"))

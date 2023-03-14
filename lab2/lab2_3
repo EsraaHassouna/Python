@@ -1,0 +1,8 @@
+'''Python program that imports only the randint function
+from the random module and uses it to generate a random integer
+between 1 and 10'''
+
+import random
+
+number = random.randint(1,10)
+print("the random integer is " , number)
