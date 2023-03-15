@@ -1,0 +1,12 @@
+'''function that takes a list of integers as input and returns
+the sum of all even numbers in the list'''
+
+list_integers=[10,5,20,7,17]
+def evenNumbers (list):
+    add=[]
+    for i in list:
+        if (i%2==0):
+            add.append(i)
+
+    return add
+print(evenNumbers(list_integers))

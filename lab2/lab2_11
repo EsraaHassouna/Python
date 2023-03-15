@@ -1,0 +1,11 @@
+'''function that takes a list of strings as input and returns a
+new list containing only the strings that start with the letter "a"'''
+
+list_string=["esraa","reem","rania","rahma","asmaa","abdElsatar","ahmed","omar"]
+def start_with_a(list):
+    add=[]
+    for item in list:
+        if item[0]=="a":
+            add.append(item)
+    return add
+print(start_with_a(list_string))

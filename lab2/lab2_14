@@ -1,0 +1,17 @@
+'''function that takes a list of numbers as input and
+returns a new list containing the squares of each number in the
+input list'''
+
+list=[1,2,3,-10,8,-20,200]
+print(f"the list {list}")
+
+def squares_of_number(list):
+    square_list=[]
+    for element in list:
+        if element<0:
+            square_list.append("error")
+        else:    
+            square_list.append(element*element)
+    return square_list
+
+print(f"the squared list {squares_of_number(list)}")

@@ -1,0 +1,15 @@
+'''function that takes an arbitrary number of lists as input
+using *args and returns a new list that contains all the elements
+from all the input lists'''
+
+import random
+list=[1,5,25,10,30,15,20]
+list2=[10,20,30,40,50,60]
+
+def number_random(list,list2):
+    random_list=[]
+    for i in list:
+        for i in list2:
+            random_list=random.randint(i)
+    return random_list
+print(number_random(list,list2))

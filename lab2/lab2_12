@@ -1,0 +1,14 @@
+'''function that takes a dictionary as input and returns a
+new dictionary with the keys and values swapped (i.e., the keys
+become the values and the values become the keys)'''
+
+dic = {"a":'esraa',"b":'Hassouna','c':'saleh'}
+
+def swapDict(dic1):
+    newDic = {}
+    for key, value in dic1.items():
+        newDic[value]=key
+    return newDic
+
+print(f"before swap = {dic}")
+print(f"after swap = {swapDict(dic)}")

@@ -1,0 +1,22 @@
+'''function that takes a list of numbers as input and
+returns the largest and smallest numbers in the list'''
+
+list=[1,2,3,-10,8,-20,200]
+
+def largest_smallest(list1):
+    n=0
+    largest=0
+    smallest=0
+    for values in list1:
+        if values>n:
+            n=values
+    larg=n        
+    for values in list1:
+        if values<n:
+            n=values
+    small=n                
+    return (larg,small) 
+
+largest_value=largest_smallest(list)
+
+print(f"the largest and smallest values are respectivly {largest_value}")

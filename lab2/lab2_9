@@ -1,0 +1,13 @@
+'''Python program that reads a file named example.txt and
+prints the longest word in the file'''
+
+word=''
+with open("example.txt","r") as f:
+    lines = f.readlines()
+    for line in lines:
+        line_words=line.split(" ")
+        for this_word in line_words:
+            if len(this_word) > len(word):
+                word=this_word
+print(word)
+            

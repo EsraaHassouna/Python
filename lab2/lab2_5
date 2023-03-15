@@ -5,7 +5,7 @@ count=0
 textfile=open("example.txt","r")
 
 for line in textfile:
-    if line !=0 :
+    if line != 0 :
         count+=1
 
 textfile.close()
