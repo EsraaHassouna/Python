@@ -1,0 +1,18 @@
+'''Create a class Employee with three attributes name, age, and salary.
+The class should have a method raise_salary() that increases the
+employee's salary by a given percentage'''
+
+class Employee:
+    percentage=10
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+        
+        
+    def raise_salary(self,percentage):
+        print(f'the name is {self.name} \n the age is {self.age} \n the salary is {self.salary}')
+        print(f'the salary after raising by 10% is {self.percentage*self.salary}')
+        
+Employee1=Employee('esraa',24,700)
+Employee1.raise_salary(10)

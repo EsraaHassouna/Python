@@ -1,0 +1,17 @@
+'''class Person with two attributes name and age. The class
+should have a constructor that initializes the name and age
+attributes. Also, implement a destructor for the class that prints a
+message when the object is destroyed'''
+
+
+class Employee:
+ 
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        print(f'name is {name} age is {age}')
+ 
+    def __del__(self):
+        print('the obj is deleted')
+ 
+obj = Employee('esraa',24)

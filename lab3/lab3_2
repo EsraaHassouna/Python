@@ -1,0 +1,10 @@
+'''class Circle with one attribute radius. The class should have
+a method circumference() that returns the circumference of the
+circle'''
+import math
+class circle:
+    redius=15
+    def circumferance(self):
+        print(f"the circumfrance of the circle is {math.pi*self.redius*2}")
+        
+circle_all=circle().circumferance()

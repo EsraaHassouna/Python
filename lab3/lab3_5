@@ -1,0 +1,18 @@
+'''class Car with four attributes make, model, year, and
+mileage. The class should have a method drive() that increments the
+mileage of the car by a given amount'''
+
+class car:
+    
+    def __init__(self,make,model,year,mileage,increment):
+        self.make=make
+        self.model=model
+        self.year=year
+        self.mileage=mileage
+        self.increment=mileage+increment
+        
+    def drive(self):
+        print(f"the mileage of will be {self.increment}")
+        
+car1=car('make','bmw',2023,100,50)
+car1.drive()

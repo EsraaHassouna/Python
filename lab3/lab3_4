@@ -1,0 +1,15 @@
+'''class Book with two attributes title and author. The class
+should have a method display() that prints the title and author of the
+book'''
+
+class Book:
+
+    def __init__(self,title,auther):
+        self.title=title
+        self.auther=auther
+        
+    def display(self):
+        print(f"the title of the book is {self.title} and the auther name {self.auther}")
+                
+book1=Book('Charlis diary','Chalis Dickens')
+book1.display()
